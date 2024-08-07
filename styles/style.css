@@ -86,3 +86,51 @@
 .row2 a{
     color: black;
 }
+.row3{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-image: url('../images/h1_hero1.jpg.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 90vw;
+}
+.header-heading{
+    color: white;
+}
+.header-genre{
+    background-color: white;
+    height: 28px;
+    width: 120px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+.header-heading{
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+}
+.col3{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.header-btn{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight:700;
+}
