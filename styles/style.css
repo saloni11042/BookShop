@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+}
 .row1{
     display: flex;
     justify-content: space-around;
@@ -89,6 +92,7 @@
 .row3{
     display: flex;
     justify-content: center;
+    background-color: #FEF4F4;
 }
 .container{
     background-image: url('../images/h1_hero1.jpg.webp');
@@ -133,4 +137,69 @@
     border: none;
     color: white;
     font-weight:700;
+}
+.best-seller-heading{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.best-seller-row{
+    background-color: #FEF4F4;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card-content-row{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-right: 10px;
+}
+.card-book-name{
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.card-author-name{
+    font-size: 15px;
+    color: grey;
+    padding-top: 10px;
+}
+.card-star-rating{
+    color: #FF5700;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.card-review-para{
+    color: grey;
+}
+.card-review{
+    color: #FF5700;
+    font-size: 14px;
+}
+.card-price{
+    color: #FF5700;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.best-seller-col{
+    width: 14%;
+}
+.card-content{
+    padding-left: 12px;
+    background-color: white;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    width: 100%;
 }
