@@ -380,4 +380,45 @@ align-items: center;
     .menu-col{
         display: block;
     }
+    .header-heading{
+        font-size: 30px;
+    }
+    .col3{
+        width: 35vw;
+        gap: 30px;
+    }
+    .container{
+        height: 70vh;
+    }
+    .best-seller-row{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .best-seller-col{
+        width: 45%;
+    }
+    .featured-row{
+      flex-wrap: wrap;
+       
+    }
+    .featured-col1{
+        width: 90%;
+    }
+    .featured-col2{
+        width: 90%;
+    }
+    .featured-column{
+       flex-wrap: wrap;
+        gap: 50px;
+        padding-left: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 50px;
+    }
+    .featured-col2 img{
+        width: 100%;
+    }
+    .latest-row1{
+        flex-wrap: wrap;
+    }
 }
