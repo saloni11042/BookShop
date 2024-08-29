@@ -105,6 +105,7 @@ body{
     height: 80vh;
     width: 90vw;
 }
+
 .header-heading{
     color: white;
 }
@@ -421,4 +422,70 @@ align-items: center;
     .latest-row1{
         flex-wrap: wrap;
     }
+}
+
+
+/* Contact Page */
+.map-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 60vh;
+}
+.map {
+ 
+    width: 90vw;
+    position: relative;
+    height: 100%;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.contact-container{
+    background-image: url('../images/h1_hero1.jpg.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 90vw;
+}
+.contact-heading{
+    color: white;
+}
+.contact-form-row{
+    display: flex;
+    width: 100%;
+}
+.form-col{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.address-col{
+    width: 30%;
+}
+.contact-form{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form-row{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-form-row1{
+    padding-left: 15vw;
+    padding-bottom: 2%;
+}
+.form-col textarea{
+    width: 600px;
 }
