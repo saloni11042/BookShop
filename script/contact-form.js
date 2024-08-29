@@ -24,19 +24,20 @@ function handleSubmit(event){
         messageError.innerHTML="um...yea, you have to write something to send this form."
     }
 
-    if(username=="")
-        {
+    if(username==""){
             nameError.innerHTML="come on, you have a name, don't you?"
         }
     else if(!usernameRegex.test(username)){
         nameError.innerHTML="Please enter valid name"
-    }
+        }
+
     if(email==""){
             emailError.innerHTML="no email, no message"
         }
-        else if(!emailRegex.test(email)){
+    else if(!emailRegex.test(email)){
             emailError.innerHTML="Please enter valid email"
         }
+
     if(subject==""){
             subjectError.innerHTML="come on, you have a subject, don't you?"
         }
